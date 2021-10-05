@@ -1,0 +1,61 @@
+Error output for file: 15.10.6.2-9-e-1.js 
+
+ /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:337
+      if (args.length !== 2) throw new Error("RegExp expects two arguments");
+              ^
+
+TypeError: Cannot read property 'length' of undefined
+    at replaceRegExp (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:311:11)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:10:13)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:262:20)
+    at /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:52
+    at Array.map (<anonymous>)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:41)
+    at /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:17:36
+    at Array.map (<anonymous>)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:17:25)
+    at compileJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:326:32)
+ 
+
+
+Error output for file: S15.10.6.2_A12.js 
+
+ /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:337
+      if (args.length !== 2) throw new Error("RegExp expects two arguments");
+              ^
+
+TypeError: Cannot read property 'length' of undefined
+    at replaceRegExp (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:311:11)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:10:13)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:57:22)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:68:20)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:57:22)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:262:20)
+    at /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:52
+    at Array.map (<anonymous>)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:41)
+    at /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:17:36
+ 
+
+
+Error output for file: S15.10.7.4_A10.js 
+
+ /Users/josesantos/projects/students/Priyanka/JSRegExps/src/RegExpCompiler/RegExpCompiler.js:125
+          throw new Error('Unsupported meta symbol: ' + char_ast.symbol + '. value: ' + char_ast.value);
+          ^
+
+Error: Unsupported meta symbol: 
+. value: \n
+    at charAst2CharSet (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/RegExpCompiler/RegExpCompiler.js:126:24)
+    at compile (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/RegExpCompiler/RegExpCompiler.js:220:24)
+    at topCompile (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/RegExpCompiler/RegExpCompiler.js:267:13)
+    at genRegExpConstr (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:283:18)
+    at replaceRegExp (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:304:16)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:10:13)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:262:20)
+    at /Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:52
+    at Array.map (<anonymous>)
+    at mapJS (/Users/josesantos/projects/students/Priyanka/JSRegExps/src/JSCompiler/JSCompiler.js:148:41)
+ 
+
+

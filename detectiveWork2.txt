@@ -1,0 +1,27 @@
+OURS: ["evermore","Nevermore","Nevermore","Nevermore","nevermore","Nevermore","nevermore","Nevermore","Nevermore","Nevermore","Nevermore","nevermore"]
+
+
+MISSING ONES: 
+"nothing more", 0 
+"nothing more", 2
+
+
+THE RIGHT ONES:
+ "nothing more", 
+ "evermore", 
+ "nothing more", 
+ "nothing more", 
+ "nothing more", 
+ "nothing more", 
+ "nothing more", 
+ "Nevermore", 
+ "Nevermore", 
+ "Nevermore", 
+ "nevermore", 
+ "Nevermore", 
+ "nevermore", 
+ "Nevermore", 
+ "Nevermore", 
+ "Nevermore", 
+ "Nevermore", 
+ "nevermore"

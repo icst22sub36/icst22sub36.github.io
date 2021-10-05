@@ -1,0 +1,39 @@
+{
+  "name": "JSRegExpComp",
+  "version": "1.0.0",
+  "description": "JS Regular Expression Compiler",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.doc.ic.ac.uk:jfaustin/JSRegExps.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "regular",
+    "expressions",
+    "compiler"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "babelify": "^10.0.0",
+    "bootstrap": "^4.6.0",
+    "browserify": "^17.0.0",
+    "caniuse-lite": "^1.0.30001251",
+    "escodegen": "^1.11.1",
+    "esprima": "^4.0.1",
+    "jquery": "^3.6.0",
+    "monaco-editor": "^0.23.0",
+    "regexp-tree": "^0.1.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}

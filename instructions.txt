@@ -1,0 +1,11 @@
+
+node --experimental-modules --es-module-specifier-resolution=node index.js <PROG>.js  <OUTPUT_FOLDER>
+
+mv <OUTPUT_FOLDER>/<PROG>_compiled.mjs . 
+
+node --experimental-modules --es-module-specifier-resolution=node <PROG>.mjs 
+
+
+python3 compileTests.py tests/Test262/test/built-ins/String/prototype/ --test262 tests/Test262/harness/
+
+python3 runTests.py 
