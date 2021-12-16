@@ -39,25 +39,3 @@ Each command takes a couple of seconds to run. After this, just refresh the 'ind
 1. Open the 'source_html' folder
 2. Open the 'index.html' file in a web browser
 3. Enjoy!
-
-## Testing with Test262 suite
-
-1. Navigate to the source directory of the project
-1. **Compile tests**
-
-```py
-python3 compileTests.py [tests_dir] --test262 tests/Test262/harness
-```
-
-[tests_dir] - directory containing the tests to compile. In order to compile all tests, use  
-tests_dir = tests/Test262/test
-
-#####
-
-2. **Run tests**
-
-```py
-python3 runTests.py
-```
-
-3. **Results will be shown in the terminal**
