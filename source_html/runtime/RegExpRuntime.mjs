@@ -74,7 +74,14 @@ function saveState(m) {
 
 
 function characterSetMatcher(char_set, invert, ctx, loc) {
+    console.log(char_set);
+    console.log(invert);
+    console.log(ctx);
+    console.log(loc);
+
     return function (state, cont) {
+        console.log(state);
+        console.log(cont);
         var e = endIndex(state);
         var str = stateString(state);
 

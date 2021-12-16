@@ -84,10 +84,10 @@ In order to correctly evaluate the tool, we need to demonstrate that its usage c
 
 | A4 |  |
 |--------------------------------------------|---|
-| Regular expression wrongly used | (https\|http)?:\\/\\/(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?/i |
-| Correct regular expression      |^(https\|http)?:\\/\\/(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?$/i |
+| Regular expression wrongly used | (https\|http)?:\\/\\/(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=\~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?/i |
+| Correct regular expression      |^(https\|http)?:\\/\\/(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=\~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?$/i |
 | Expected match                  | Validate whole URLs |
-| Ideal breakpoint placement      | (https\|http)?:\\/\\/**[!]**(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?/i |
+| Ideal breakpoint placement      | (https\|http)?:\\/\\/**[!]**(?:\w[\\-\w.]+)(?:\\/[\\-\w+&@#\\/%=\~_\|!:,.;]*)?(?:\\?[\\-A-Z0-9+&@#\\/%=~_\|!:,.;]*)?/i |
 | How can Rex Stepper help?    | Our tool makes it clear that just a part of the URL is being matched, we need the assertions to match entire URL's |
 
 
@@ -211,7 +211,7 @@ In order to correctly evaluate the tool, we need to demonstrate that its usage c
 | GR6 |  |
 |--------------------------------------------|---|
 | Regular expression wrongly used | ^[^;]\*?variable2 |
-| Correct regular expression      | ^[^;\\n]\*?variable2 |
+| Correct regular expression      | ^[^;\n]\*?variable2 |
 | Expected match                  | Trying to match a variable name with the shortest match possible from the beggining of the given line. The problem is the match starts 2 lines above (does not refresh at new line) |
 | Ideal breakpoint placement      | ^([^;]**[!]**)\*?variable2 |
 | How can Rex Stepper help?    | With our tool we can see that the [^;]\* is consuming more than one line until it reaches the desired value |
